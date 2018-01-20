@@ -1,4 +1,8 @@
 .slider {
+  background-color: #fafafa;
+  h1, h3 {
+    color: #45c3d3;
+  }
   .count {
     display: flex;
     justify-content: center;
@@ -11,15 +15,40 @@
     }
     .box {
       margin: 25px 35px;
-    {
       img {
         margin-bottom: 12px;
       }
-    }
     }
   }
   img.logo {
     width: 450px;
   }
 
+}
+.howit-work {
+  img {
+    width: 45px;
+  }
+  h2 {
+    font-size: 26px;
+    margin: 25px 0;
+  }
+  .head {
+    margin-bottom: 45px;
+  }
+  .master-note-icons {
+    display: flex;
+    justify-content: center;
+    .howit-wrap {
+      margin: 70px 27px 0;
+    }
+  }
+}
+.howit-work.main-block {
+  padding: 20px 0;
+  //border-bottom: 1px solid #ece9e9;
+}
+hr.after-masternote {
+  width: 60%;
+  margin: 0px auto;
 }
