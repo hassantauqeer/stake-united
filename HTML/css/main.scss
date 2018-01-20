@@ -11,15 +11,29 @@
     }
     .box {
       margin: 25px 35px;
-    {
+
       img {
         margin-bottom: 12px;
       }
-    }
+
     }
   }
   img.logo {
     width: 450px;
   }
 
+}
+.our-client {
+  img{
+    width:45px;
+  }
+}
+.row mb-5{
+  display: flex;
+  justify-content: center;
+}
+.social-icons{
+  a{
+    margin: 15px;
+  }
 }
