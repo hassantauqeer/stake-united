@@ -37,4 +37,20 @@ hr.after-masternote {
   width: 60%;
   margin: 0px auto; }
 
+.our-client img {
+  width: 45px; }
+.our-client ul {
+  display: flex;
+  justify-content: center; }
+
+.row .mb-5 {
+  margin-bottom: 3rem !important; }
+
+.social-icons {
+  display: flex;
+  justify-content: center;
+  margin: 0px; }
+  .social-icons a {
+    margin: 15px; }
+
 /*# sourceMappingURL=main.css.map */
