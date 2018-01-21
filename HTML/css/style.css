@@ -250,10 +250,12 @@ header {
   background: #45c3d3;
   border: 2px solid #2ea8b7;
   padding: 9px 33px;
+  margin-left: 12px;
   -webkit-transition: 0.3s;
   -o-transition: 0.3s;
   transition: 0.3s; }
   .btn-info:hover {
+    cursor: pointer;
     background: #2fb2c3; }
 
 .input-group-addon {
@@ -441,7 +443,8 @@ COUNDOWN TIMER
   margin: 0 0 30px; }
   .center-block h2 span {
     color: #45c3d3;
-    border-bottom: 3px solid #45c3d3; }
+    /*border-bottom: 3px solid #45c3d3; */
+  }
 
 .center-block h6 {
   text-align: center;
@@ -750,7 +753,7 @@ figure.effect-lily:hover p {
   transition-duration: 0.35s; }
 
 .service-title {
-  background: #45c3d3;
+  /*background: #45c3d3;*/
   text-align: center;
   padding: 40px 0; }
   .service-title h2 {
