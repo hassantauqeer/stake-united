@@ -436,12 +436,45 @@ hr.after-masternote {
 
   .bar-12 {
     left: 495px; } }
+@media only screen and (min-width: 871px) {
+  .mobile-table, .mobile-ticks {
+    display: none; } }
 @media only screen and (max-width: 870px) {
   #q-graph, #ticks {
     display: none !important; }
 
   .news-graph .right-sect {
     width: 64%; }
+    .news-graph .right-sect img {
+      margin-left: 10px; }
+
+  table, tbody, tr {
+    width: 100%; }
+
+  #services td.bar-1 {
+    width: 20%; }
+  #services td.bar-2 {
+    width: 30%; }
+  #services td.bar-3 {
+    width: 50%; }
+  #services td.bar-4 {
+    width: 40%; }
+  #services td.bar-5 {
+    width: 70%; }
+  #services td.bar-6 {
+    width: 80%; }
+  #services td.bar-7 {
+    width: 90%; }
+  #services td.bar-8 {
+    width: 20%; }
+  #services td.bar-9 {
+    width: 10%; }
+  #services td.bar-10 {
+    width: 60%; }
+  #services td.bar-11 {
+    width: 20%; }
+  #services td.bar-12 {
+    width: 25%; }
 
   .mobile-table tr td {
     display: flex;
@@ -476,7 +509,10 @@ hr.after-masternote {
       border-left: 1px dotted #8b9aab;
       opacity: 0.6;
       height: 492px;
-      position: relative; } }
+      position: relative; }
+
+  .mobile-table tr td {
+    justify-content: flex-start; } }
 @media only screen and (max-width: 768px) {
   .news-graph {
     margin-top: 40px;
@@ -500,9 +536,28 @@ hr.after-masternote {
     width: 74%;
     margin: 0px auto; }
     .news-graph .right-sect img {
-      margin-left: 10px; }
+      margin-left: 10px; } }
+@media only screen and (max-width: 768px) {
+  .slider img.logo {
+    width: 260px; }
 
-  .mobile-table tr td {
-    justify-content: flex-start; } }
+  h1 {
+    font-size: 30px; }
+
+  header .navbar > a > img {
+    width: 90px; }
+
+  .news-graph .right-sect {
+    width: 100%; }
+
+  .news-graph .border-vertical {
+    height: 1px;
+    width: 260px;
+    margin: 40px auto;
+    border-top: 1px solid #0000001a; } }
+@media only screen and (max-width: 992px) {
+  .btn-info {
+    margin-bottom: 12px;
+    margin-left: 0px; } }
 
 /*# sourceMappingURL=main.css.map */
