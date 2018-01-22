@@ -318,3 +318,199 @@ $color-sent: #39cccc;
   top: -0.8em;
   margin: 0 0 0 0.5em;
 }
+
+
+@media only screen and (max-width: 1570px) and (min-width: 1386px) {
+  .news-graph {
+    //background-color: red;
+  }
+  #q-graph .bar{
+    width: 40px;
+  }
+  .bar-1{
+    left: 0px;
+  }
+  .bar-2{
+    left: 75px;
+  }
+  .bar-3{
+    left: 150px;
+  }
+  .bar-4{
+    left: 225px;
+  }
+  .bar-5{
+    left: 300px;
+  }
+  .bar-6{
+    left: 375px;
+  }
+  .bar-7{
+    left: 450px;
+  }
+  .bar-8{
+    left: 525px;
+  }
+  .bar-9{
+    left: 600px;
+  }
+  .bar-10{
+    left: 675px;
+  }
+  .bar-11{
+    left: 750px;
+  }
+  .bar-12{
+    left: 825px;
+  }
+}
+
+@media only screen and (max-width: 1386px) {
+  .news-graph {
+    //background-color: blue;
+  }
+  #q-graph .bar{
+    width: 35px;
+  }
+  .news-graph .right-sect img{
+    width: 27px;
+  }
+  .bar-1{
+    left: 0px;
+  }
+  .bar-2{
+    left: 55px;
+  }
+  .bar-3{
+    left: 110px;
+  }
+  .bar-4{
+    left: 165px;
+  }
+  .bar-5{
+    left: 220px;
+  }
+  .bar-6{
+    left: 275px;
+  }
+  .bar-7{
+    left: 330px;
+  }
+  .bar-8{
+    left: 385px;
+  }
+  .bar-9{
+    left: 440px;
+  }
+  .bar-10{
+    left: 495px;
+  }
+  .bar-11{
+    left: 550px;
+  }
+  .bar-12{
+    left: 605px;
+  }
+}
+
+@media only screen and (max-width: 1085px) {
+  .news-graph {
+    //background-color: blue;
+  }
+  #q-graph .bar{
+    width: 35px;
+  }
+  #q-graph tbody tr {
+    left: 70px;
+  }
+  .news-graph .right-sect img{
+    width: 27px;
+  }
+  .bar-1{
+    left: 0px;
+  }
+  .bar-2{
+    left: 55px;
+  }
+  .bar-3{
+    left: 110px;
+  }
+  .bar-4{
+    left: 165px;
+  }
+  .bar-5{
+    left: 220px;
+  }
+  .bar-6{
+    left: 275px;
+  }
+  .bar-7{
+    left: 330px;
+  }
+  .bar-8{
+    left: 385px;
+  }
+  .bar-9{
+    left: 440px;
+  }
+  .bar-10{
+    left: 495px;
+  }
+  .bar-11{
+    left: 550px;
+  }
+  .bar-12{
+    left: 605px;
+  }
+}
+
+@media only screen and (max-width: 1085px) {
+  .news-graph {
+    //background-color: blue;
+  }
+  #q-graph .bar{
+    width: 30px;
+  }
+  #q-graph tbody tr {
+    left: 70px;
+  }
+  .news-graph .right-sect img{
+    width: 23px;
+  }
+  .bar-1{
+    left: 0px;
+  }
+  .bar-2{
+    left: 45px;
+  }
+  .bar-3{
+    left: 90px;
+  }
+  .bar-4{
+    left: 135px;
+  }
+  .bar-5{
+    left: 180px;
+  }
+  .bar-6{
+    left: 225px;
+  }
+  .bar-7{
+    left: 270px;
+  }
+  .bar-8{
+    left: 315px;
+  }
+  .bar-9{
+    left: 360px;
+  }
+  .bar-10{
+    left: 405px;
+  }
+  .bar-11{
+    left: 450px;
+  }
+  .bar-12{
+    left: 495px;
+  }
+}
